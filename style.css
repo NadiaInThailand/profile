@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2 {
-  font-size: 30px;
+  font-size: 31px;
   line-height: 50px;
 }
 
@@ -59,6 +59,11 @@ a:hover {
   opacity: 0.7;
 }
 
+.container {
+  height: 100vh;
+  position: relative;
+}
+
 .flex {
   display: flex;
 }
@@ -68,7 +73,7 @@ a:hover {
   color:white;
   padding: 10px 10px;
   border-radius: 5px;
-  font-size: smaller;
+  font-size: 15px;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
 }
 
@@ -78,7 +83,7 @@ a:hover {
 
 .profile-picture {
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
-  border-radius: 10px;
+  border-radius: 50%;
   width: 250px;
 }
 
@@ -90,7 +95,7 @@ a:hover {
   padding: 30px;
   padding-bottom: 5px;
   margin: 20px auto;
-  width: 300px;
+  width: 400px;
 }
 
 .food-picture {
@@ -117,12 +122,6 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
-
-.container {
-  height: 100vh;
-  position: relative;
-}
-
 
 li {
   list-style: none;
